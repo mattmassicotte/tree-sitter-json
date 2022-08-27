@@ -6,8 +6,9 @@
 
 ; Primitive values
 (pair
-  value: (string) @value.string
+  value: (string) @value.string ; String that is value against a key
 )
+(array (string) @value.string) ;String that is an array element
 (number) @value.number
 (null) @value.null
 
