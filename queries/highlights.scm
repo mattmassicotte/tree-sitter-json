@@ -32,3 +32,5 @@
   ":"
   ","
 ] @punctuation.delimiter
+
+(ERROR) @error
