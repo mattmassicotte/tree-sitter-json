@@ -34,12 +34,3 @@ let package = Package(
                 cSettings: [.headerSearchPath("src")])
     ]
 )
-
-
-
-
-
-
-
-
-
