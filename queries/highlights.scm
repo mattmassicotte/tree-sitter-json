@@ -1,7 +1,13 @@
 ; highlights.scm
 
+(pair
+  key: (_) @keyword
+)
+
 ; Primitive values
-(string) @value.string
+(pair
+  value: (string) @value.string
+)
 (number) @value.number
 (null) @value.null
 
@@ -25,7 +31,3 @@
   ":"
   ","
 ] @punctuation.delimiter
-
-(pair
-  key: (_) @keyword
-)
