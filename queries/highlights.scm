@@ -1,15 +1,15 @@
 ; highlights.scm
 
 ; Primitive values
-(string) @string
-(number) @number
-(null) @null
+(string) @value.string
+(number) @value.number
+(null) @value.null
 
 ; Booleans
 [
   (true)
   (false)
-] @bool
+] @value.bool
 
 
 ; Brackets
